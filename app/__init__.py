@@ -14,5 +14,5 @@ def create_app():
     app.add_url_rule('/myproject.html', 'myproject', myproject)
     app.add_url_rule('/googlepatent.html', 'googlepatent', googlepatent)
     app.add_url_rule('/ppgpro.html', 'ppgpro', ppgpro)
-    
+    app.add_url_rule('/special.html', 'special', special)
     return app
