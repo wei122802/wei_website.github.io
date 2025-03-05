@@ -21,6 +21,9 @@ def otherpictures():
 def notebook():
     return render_template('notebook.html')
 
+def special():
+    return render_template('special.html')
+
 def feedback():
     return render_template('feedback.html')
 
